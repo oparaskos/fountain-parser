@@ -1,7 +1,7 @@
 {
 	"name": "fountain-parser",
 	"description": "Parser for the Fountain screenwriting language written in TypeScript for nodejs.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
 	"main": "dist/index.js",
 	"repository": {
