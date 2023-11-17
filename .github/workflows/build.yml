@@ -23,7 +23,7 @@ jobs:
         npm publish --dry-run
       env:
         CI: true
-    - run: zip -r dist.zip dist
+    - run: npm pack
     - name: Automatic Semantic Release
       uses: cycjimmy/semantic-release-action@v3
       id: semantic
