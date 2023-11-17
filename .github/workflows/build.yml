@@ -17,6 +17,8 @@ jobs:
     - name: Build and Package
       run: |
         npm ci
+        npm run lint
+        npm run test
         npm run build
         npm publish --dry-run
       env:
