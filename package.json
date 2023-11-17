@@ -1,6 +1,5 @@
 {
 	"name": "fountain-parser",
-	"private": true,
 	"description": "Parser for the Fountain screenwriting language written in TypeScript for nodejs.",
 	"version": "1.0.0",
 	"license": "MIT",
