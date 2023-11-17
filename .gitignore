@@ -6,3 +6,4 @@ client/server
 dist/
 *.vsix
 .DS_Store
+fountain-parser-1.0.0.tgz
