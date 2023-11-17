@@ -6,7 +6,7 @@
 	"main": "dist/index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/oparaskos/fountain-parser"
+		"url": "git+https://github.com/oparaskos/fountain-parser.git"
 	},
 	"scripts": {
 		"test": "jest",
