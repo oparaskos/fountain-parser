@@ -1,0 +1,238 @@
+{
+  "children": [
+    {
+      "type": "title-page",
+      "tokens": []
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "Page one.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 0,
+              "column": 0,
+              "index": 0
+            },
+            "end": {
+              "line": 0,
+              "column": 10,
+              "index": 10
+            }
+          },
+          "text": "Page one."
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 1,
+              "column": 0,
+              "index": 10
+            },
+            "end": {
+              "line": 1,
+              "column": 1,
+              "index": 11
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "synopses",
+      "tokens": [
+        {
+          "type": "synopsis",
+          "line": "===",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 2,
+              "column": 0,
+              "index": 11
+            },
+            "end": {
+              "line": 2,
+              "column": 4,
+              "index": 15
+            }
+          },
+          "text": "=="
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 3,
+              "column": 0,
+              "index": 15
+            },
+            "end": {
+              "line": 3,
+              "column": 1,
+              "index": 16
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "Page two.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 4,
+              "column": 0,
+              "index": 16
+            },
+            "end": {
+              "line": 4,
+              "column": 10,
+              "index": 26
+            }
+          },
+          "text": "Page two."
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 5,
+              "column": 0,
+              "index": 26
+            },
+            "end": {
+              "line": 5,
+              "column": 1,
+              "index": 27
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "synopses",
+      "tokens": [
+        {
+          "type": "synopsis",
+          "line": "=========",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 6,
+              "column": 0,
+              "index": 27
+            },
+            "end": {
+              "line": 6,
+              "column": 10,
+              "index": 37
+            }
+          },
+          "text": "========"
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 7,
+              "column": 0,
+              "index": 37
+            },
+            "end": {
+              "line": 7,
+              "column": 1,
+              "index": 38
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "Page three.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 8,
+              "column": 0,
+              "index": 38
+            },
+            "end": {
+              "line": 8,
+              "column": 12,
+              "index": 50
+            }
+          },
+          "text": "Page three."
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 9,
+              "column": 0,
+              "index": 50
+            },
+            "end": {
+              "line": 9,
+              "column": 1,
+              "index": 51
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    }
+  ]
+}

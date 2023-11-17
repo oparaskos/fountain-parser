@@ -1,0 +1,192 @@
+{
+  "children": [
+    {
+      "type": "title-page",
+      "tokens": []
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "A normal line of action.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 0,
+              "column": 0,
+              "index": 0
+            },
+            "end": {
+              "line": 0,
+              "column": 25,
+              "index": 25
+            }
+          },
+          "text": "A normal line of action."
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 1,
+              "column": 0,
+              "index": 25
+            },
+            "end": {
+              "line": 1,
+              "column": 1,
+              "index": 26
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "This is a multi-line block of Action.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 2,
+              "column": 0,
+              "index": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 38,
+              "index": 64
+            }
+          },
+          "text": "This is a multi-line block of Action."
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "Made famous by the great",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 3,
+              "column": 0,
+              "index": 64
+            },
+            "end": {
+              "line": 3,
+              "column": 25,
+              "index": 89
+            }
+          },
+          "text": "Made famous by the great"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "WALTER HILL",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 4,
+              "column": 0,
+              "index": 89
+            },
+            "end": {
+              "line": 4,
+              "column": 12,
+              "index": 101
+            }
+          },
+          "text": "WALTER HILL"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "but used by many other writers.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 5,
+              "column": 0,
+              "index": 101
+            },
+            "end": {
+              "line": 5,
+              "column": 32,
+              "index": 133
+            }
+          },
+          "text": "but used by many other writers."
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 6,
+              "column": 0,
+              "index": 133
+            },
+            "end": {
+              "line": 6,
+              "column": 1,
+              "index": 134
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "A normal line of action.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 7,
+              "column": 0,
+              "index": 134
+            },
+            "end": {
+              "line": 7,
+              "column": 25,
+              "index": 159
+            }
+          },
+          "text": "A normal line of action."
+        }
+      ]
+    }
+  ]
+}

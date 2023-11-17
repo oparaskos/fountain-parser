@@ -1,0 +1,169 @@
+{
+  "children": [
+    {
+      "type": "title-page",
+      "tokens": []
+    },
+    {
+      "type": "centered-text",
+      "tokens": [
+        {
+          "type": "centered",
+          "line": "> Centered <",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 0,
+              "column": 0,
+              "index": 0
+            },
+            "end": {
+              "line": 0,
+              "column": 13,
+              "index": 13
+            }
+          },
+          "text": " Centered "
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 1,
+              "column": 0,
+              "index": 13
+            },
+            "end": {
+              "line": 1,
+              "column": 1,
+              "index": 14
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "transition",
+      "tokens": [
+        {
+          "type": "transition",
+          "line": "> Not centered",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 2,
+              "column": 0,
+              "index": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 15,
+              "index": 29
+            }
+          },
+          "text": "> Not centered"
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 3,
+              "column": 0,
+              "index": 29
+            },
+            "end": {
+              "line": 3,
+              "column": 1,
+              "index": 30
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "centered-text",
+      "tokens": [
+        {
+          "type": "centered",
+          "line": ">No space<",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 4,
+              "column": 0,
+              "index": 30
+            },
+            "end": {
+              "line": 4,
+              "column": 11,
+              "index": 41
+            }
+          },
+          "text": "No space"
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 5,
+              "column": 0,
+              "index": 41
+            },
+            "end": {
+              "line": 5,
+              "column": 1,
+              "index": 42
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "centered-text",
+      "tokens": [
+        {
+          "type": "centered",
+          "line": ">      Lots of Space\t\t<",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 6,
+              "column": 0,
+              "index": 42
+            },
+            "end": {
+              "line": 6,
+              "column": 24,
+              "index": 66
+            }
+          },
+          "text": "      Lots of Space\t\t"
+        }
+      ]
+    }
+  ]
+}

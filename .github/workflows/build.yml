@@ -1,0 +1,39 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16.x
+        cache: npm
+    - name: Build and Package
+      run: |
+        npm ci
+        npm run build
+        npm publish --dry-run
+      env:
+        CI: true
+    - name: Automatic Semantic Release
+      uses: cycjimmy/semantic-release-action@v3
+      id: semantic
+      with:
+        extra_plugins: |
+          @semantic-release/changelog
+          @semantic-release/git
+        branch: main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Publish to NPM
+      if: steps.semantic.outputs.new_release_published == 'true'
+      run: |
+        npm publish
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

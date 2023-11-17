@@ -1,0 +1,2819 @@
+{
+  "children": [
+    {
+      "type": "title-page",
+      "tokens": [
+        {
+          "type": "title_page",
+          "line": "Title: Outlining Tutorial",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 0,
+              "column": 0,
+              "index": 0
+            },
+            "end": {
+              "line": 0,
+              "column": 26,
+              "index": 26
+            }
+          },
+          "text": "Outlining Tutorial",
+          "key": "Title"
+        },
+        {
+          "type": "title_page",
+          "line": "Credit:",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 1,
+              "column": 0,
+              "index": 26
+            },
+            "end": {
+              "line": 1,
+              "column": 8,
+              "index": 34
+            }
+          },
+          "text": "",
+          "key": "Credit"
+        },
+        {
+          "type": "title_page",
+          "line": "Author: Lauri-Matti Parppei",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 2,
+              "column": 0,
+              "index": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 28,
+              "index": 62
+            }
+          },
+          "text": "Lauri-Matti Parppei",
+          "key": "Author"
+        },
+        {
+          "type": "title_page",
+          "line": "Source:",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 3,
+              "column": 0,
+              "index": 62
+            },
+            "end": {
+              "line": 3,
+              "column": 8,
+              "index": 70
+            }
+          },
+          "text": "",
+          "key": "Source"
+        },
+        {
+          "type": "title_page",
+          "line": "Draft date: 29.8.2020",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 4,
+              "column": 0,
+              "index": 70
+            },
+            "end": {
+              "line": 4,
+              "column": 22,
+              "index": 92
+            }
+          },
+          "text": "29.8.2020",
+          "key": "Draft date"
+        },
+        {
+          "type": "title_page",
+          "line": "Contact:",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 5,
+              "column": 0,
+              "index": 92
+            },
+            "end": {
+              "line": 6,
+              "column": 16,
+              "index": 117
+            }
+          },
+          "text": "\nbeat@kapitan.fi",
+          "key": "Contact"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "beat@kapitan.fi",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 6,
+              "column": 0,
+              "index": 101
+            },
+            "end": {
+              "line": 6,
+              "column": 16,
+              "index": 117
+            }
+          },
+          "text": "beat@kapitan.fi"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "www.kapitan.fi/beat/",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 7,
+              "column": 0,
+              "index": 117
+            },
+            "end": {
+              "line": 7,
+              "column": 21,
+              "index": 138
+            }
+          },
+          "text": "www.kapitan.fi/beat/"
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 8,
+              "column": 0,
+              "index": 138
+            },
+            "end": {
+              "line": 8,
+              "column": 1,
+              "index": 139
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 9,
+              "column": 0,
+              "index": 139
+            },
+            "end": {
+              "line": 9,
+              "column": 1,
+              "index": 140
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "tokens": [
+        {
+          "type": "section",
+          "line": "# Outlining Tutorial",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 10,
+              "column": 0,
+              "index": 140
+            },
+            "end": {
+              "line": 10,
+              "column": 21,
+              "index": 161
+            }
+          },
+          "text": "Outlining Tutorial",
+          "depth": 1
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 11,
+              "column": 0,
+              "index": 161
+            },
+            "end": {
+              "line": 11,
+              "column": 1,
+              "index": 162
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "boneyard_begin",
+          "line": "/* This is a quick tutorial on how to quickly outline stories in Beat, introducing you to the more advanced features. */",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 0,
+              "index": 162,
+              "line": 12
+            },
+            "end": {
+              "column": 2,
+              "index": 164,
+              "line": 12
+            }
+          },
+          "text": ""
+        },
+        {
+          "type": "boneyard",
+          "line": "/* This is a quick tutorial on how to quickly outline stories in Beat, introducing you to the more advanced features. */",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 0,
+              "index": 162,
+              "line": 12
+            },
+            "end": {
+              "column": 116,
+              "index": 278,
+              "line": 12
+            }
+          },
+          "text": " This is a quick tutorial on how to quickly outline stories in Beat, introducing you to the more advanced features. "
+        },
+        {
+          "type": "boneyard_end",
+          "line": "/* This is a quick tutorial on how to quickly outline stories in Beat, introducing you to the more advanced features. */",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 116,
+              "index": 278,
+              "line": 12
+            },
+            "end": {
+              "column": 118,
+              "index": 280,
+              "line": 12
+            }
+          },
+          "text": ""
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 13,
+              "column": 0,
+              "index": 283
+            },
+            "end": {
+              "line": 13,
+              "column": 1,
+              "index": 284
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "scene_heading",
+          "line": "INT. LIBRARY - MORNING",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 14,
+              "column": 0,
+              "index": 284
+            },
+            "end": {
+              "line": 14,
+              "column": 23,
+              "index": 307
+            }
+          },
+          "text": "INT. LIBRARY - MORNING"
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 15,
+              "column": 0,
+              "index": 307
+            },
+            "end": {
+              "line": 15,
+              "column": 1,
+              "index": 308
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "action",
+          "line": "By default, the index card view shows an automatically created snippet. It's usually the first action paragraph in the scene. It's not ideal when at the outlining stage, so it's easy to set up your own index card content.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 16,
+              "column": 0,
+              "index": 308
+            },
+            "end": {
+              "line": 16,
+              "column": 222,
+              "index": 530
+            }
+          },
+          "text": "By default, the index card view shows an automatically created snippet. It's usually the first action paragraph in the scene. It's not ideal when at the outlining stage, so it's easy to set up your own index card content."
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 17,
+              "column": 0,
+              "index": 530
+            },
+            "end": {
+              "line": 17,
+              "column": 1,
+              "index": 531
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 18,
+              "column": 0,
+              "index": 531
+            },
+            "end": {
+              "line": 18,
+              "column": 1,
+              "index": 532
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "scene_heading",
+          "line": "INT. SCHOOL ROOM - DAY",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 19,
+              "column": 0,
+              "index": 532
+            },
+            "end": {
+              "line": 19,
+              "column": 23,
+              "index": 555
+            }
+          },
+          "text": "INT. SCHOOL ROOM - DAY"
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 20,
+              "column": 0,
+              "index": 555
+            },
+            "end": {
+              "line": 20,
+              "column": 1,
+              "index": 556
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "synopsis",
+          "line": "= A synopsis line will be displayed as the scene's content in the index card view. These lines don't print out in the final screenplay.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 21,
+              "column": 0,
+              "index": 556
+            },
+            "end": {
+              "line": 21,
+              "column": 136,
+              "index": 692
+            }
+          },
+          "text": "A synopsis line will be displayed as the scene's content in the index card view. These lines don't print out in the final screenplay."
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 22,
+              "column": 0,
+              "index": 692
+            },
+            "end": {
+              "line": 22,
+              "column": 1,
+              "index": 693
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 23,
+              "column": 0,
+              "index": 693
+            },
+            "end": {
+              "line": 23,
+              "column": 1,
+              "index": 694
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "scene_heading",
+          "line": "EXT. SCHOOL YARD - DAY",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 24,
+              "column": 0,
+              "index": 694
+            },
+            "end": {
+              "line": 24,
+              "column": 23,
+              "index": 717
+            }
+          },
+          "text": "EXT. SCHOOL YARD - DAY"
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 25,
+              "column": 0,
+              "index": 717
+            },
+            "end": {
+              "line": 25,
+              "column": 1,
+              "index": 718
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "note_begin",
+          "line": "[[You can also use a note, whichever you prefer.]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 0,
+              "index": 718,
+              "line": 26
+            },
+            "end": {
+              "column": 2,
+              "index": 720,
+              "line": 26
+            }
+          },
+          "text": ""
+        },
+        {
+          "type": "note",
+          "line": "[[You can also use a note, whichever you prefer.]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 0,
+              "index": 718,
+              "line": 26
+            },
+            "end": {
+              "column": 46,
+              "index": 764,
+              "line": 26
+            }
+          },
+          "text": "You can also use a note, whichever you prefer."
+        },
+        {
+          "type": "note_end",
+          "line": "[[You can also use a note, whichever you prefer.]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 46,
+              "index": 764,
+              "line": 26
+            },
+            "end": {
+              "column": 48,
+              "index": 766,
+              "line": 26
+            }
+          },
+          "text": ""
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 27,
+              "column": 0,
+              "index": 769
+            },
+            "end": {
+              "line": 27,
+              "column": 1,
+              "index": 770
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 28,
+              "column": 0,
+              "index": 770
+            },
+            "end": {
+              "line": 28,
+              "column": 1,
+              "index": 771
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "scene_heading",
+          "line": "EXT. BEACH - NIGHT [[COLOR RED]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 29,
+              "column": 0,
+              "index": 771
+            },
+            "end": {
+              "column": 19,
+              "index": 790,
+              "line": 29
+            }
+          },
+          "text": "EXT. BEACH - NIGHT "
+        },
+        {
+          "type": "note_begin",
+          "line": "EXT. BEACH - NIGHT [[COLOR RED]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 19,
+              "index": 790,
+              "line": 29
+            },
+            "end": {
+              "column": 21,
+              "index": 792,
+              "line": 29
+            }
+          },
+          "text": ""
+        },
+        {
+          "type": "note",
+          "line": "EXT. BEACH - NIGHT [[COLOR RED]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 19,
+              "index": 790,
+              "line": 29
+            },
+            "end": {
+              "column": 28,
+              "index": 799,
+              "line": 29
+            }
+          },
+          "text": "COLOR RED"
+        },
+        {
+          "type": "note_end",
+          "line": "EXT. BEACH - NIGHT [[COLOR RED]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 28,
+              "index": 799,
+              "line": 29
+            },
+            "end": {
+              "column": 30,
+              "index": 801,
+              "line": 29
+            }
+          },
+          "text": ""
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 30,
+              "column": 0,
+              "index": 804
+            },
+            "end": {
+              "line": 30,
+              "column": 1,
+              "index": 805
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "synopsis",
+          "line": "= Setting a color for your scenes makes it easier to distinguish them from each other. Colors can be used to follow storylines, or just as markers. For example: Does a scene need work, is it maybe unimportant, or does it mark a big change for a character?",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 31,
+              "column": 0,
+              "index": 805
+            },
+            "end": {
+              "line": 31,
+              "column": 256,
+              "index": 1061
+            }
+          },
+          "text": "Setting a color for your scenes makes it easier to distinguish them from each other. Colors can be used to follow storylines, or just as markers. For example: Does a scene need work, is it maybe unimportant, or does it mark a big change for a character?"
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 32,
+              "column": 0,
+              "index": 1061
+            },
+            "end": {
+              "line": 32,
+              "column": 1,
+              "index": 1062
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "action",
+          "line": "Did you know that you can filter scenes by their color in the **Outline View** (⌘D)?",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 33,
+              "column": 0,
+              "index": 1062
+            },
+            "end": {
+              "line": 33,
+              "column": 85,
+              "index": 1147
+            }
+          },
+          "text": "Did you know that you can filter scenes by their color in the **Outline View** (⌘D)?"
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 34,
+              "column": 0,
+              "index": 1147
+            },
+            "end": {
+              "line": 34,
+              "column": 1,
+              "index": 1148
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 35,
+              "column": 0,
+              "index": 1148
+            },
+            "end": {
+              "line": 35,
+              "column": 1,
+              "index": 1149
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "scene_heading",
+          "line": "INT. BEDROOM - NIGHT [[STORYLINE MAIN]] [[COLOR BLUE]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 36,
+              "column": 0,
+              "index": 1149
+            },
+            "end": {
+              "column": 21,
+              "index": 1170,
+              "line": 36
+            }
+          },
+          "text": "INT. BEDROOM - NIGHT "
+        },
+        {
+          "type": "note_begin",
+          "line": "INT. BEDROOM - NIGHT [[STORYLINE MAIN]] [[COLOR BLUE]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 21,
+              "index": 1170,
+              "line": 36
+            },
+            "end": {
+              "column": 23,
+              "index": 1172,
+              "line": 36
+            }
+          },
+          "text": ""
+        },
+        {
+          "type": "note",
+          "line": "INT. BEDROOM - NIGHT [[STORYLINE MAIN]] [[COLOR BLUE]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 21,
+              "index": 1170,
+              "line": 36
+            },
+            "end": {
+              "column": 35,
+              "index": 1184,
+              "line": 36
+            }
+          },
+          "text": "STORYLINE MAIN"
+        },
+        {
+          "type": "note_end",
+          "line": "INT. BEDROOM - NIGHT [[STORYLINE MAIN]] [[COLOR BLUE]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 35,
+              "index": 1184,
+              "line": 36
+            },
+            "end": {
+              "column": 37,
+              "index": 1186,
+              "line": 36
+            }
+          },
+          "text": ""
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 37,
+              "column": 0,
+              "index": 1204
+            },
+            "end": {
+              "line": 37,
+              "column": 1,
+              "index": 1205
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "action",
+          "line": "The storyline feature is still a work-in-progress, but you can test it out manually.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 38,
+              "column": 0,
+              "index": 1205
+            },
+            "end": {
+              "line": 38,
+              "column": 85,
+              "index": 1290
+            }
+          },
+          "text": "The storyline feature is still a work-in-progress, but you can test it out manually."
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 39,
+              "column": 0,
+              "index": 1290
+            },
+            "end": {
+              "line": 39,
+              "column": 1,
+              "index": 1291
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 40,
+              "column": 0,
+              "index": 1291
+            },
+            "end": {
+              "line": 40,
+              "column": 1,
+              "index": 1292
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "scene_heading",
+          "line": "INT. BEDROOM - MORNING [[STORYLINE MAIN, SUBPLOT]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 41,
+              "column": 0,
+              "index": 1292
+            },
+            "end": {
+              "column": 23,
+              "index": 1315,
+              "line": 41
+            }
+          },
+          "text": "INT. BEDROOM - MORNING "
+        },
+        {
+          "type": "note_begin",
+          "line": "INT. BEDROOM - MORNING [[STORYLINE MAIN, SUBPLOT]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 23,
+              "index": 1315,
+              "line": 41
+            },
+            "end": {
+              "column": 25,
+              "index": 1317,
+              "line": 41
+            }
+          },
+          "text": ""
+        },
+        {
+          "type": "note",
+          "line": "INT. BEDROOM - MORNING [[STORYLINE MAIN, SUBPLOT]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 23,
+              "index": 1315,
+              "line": 41
+            },
+            "end": {
+              "column": 46,
+              "index": 1338,
+              "line": 41
+            }
+          },
+          "text": "STORYLINE MAIN, SUBPLOT"
+        },
+        {
+          "type": "note_end",
+          "line": "INT. BEDROOM - MORNING [[STORYLINE MAIN, SUBPLOT]]",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "column": 46,
+              "index": 1338,
+              "line": 41
+            },
+            "end": {
+              "column": 48,
+              "index": 1340,
+              "line": 41
+            }
+          },
+          "text": ""
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 42,
+              "column": 0,
+              "index": 1343
+            },
+            "end": {
+              "line": 42,
+              "column": 1,
+              "index": 1344
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "action",
+          "line": "Scenes can belong to multiple storylines, too. They line out nicely in the Timeline View.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 43,
+              "column": 0,
+              "index": 1344
+            },
+            "end": {
+              "line": 43,
+              "column": 90,
+              "index": 1434
+            }
+          },
+          "text": "Scenes can belong to multiple storylines, too. They line out nicely in the Timeline View."
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 44,
+              "column": 0,
+              "index": 1434
+            },
+            "end": {
+              "line": 44,
+              "column": 1,
+              "index": 1435
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 45,
+              "column": 0,
+              "index": 1435
+            },
+            "end": {
+              "line": 45,
+              "column": 1,
+              "index": 1436
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 46,
+              "column": 0,
+              "index": 1436
+            },
+            "end": {
+              "line": 46,
+              "column": 1,
+              "index": 1437
+            }
+          },
+          "text": "\n"
+        },
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 47,
+              "column": 0,
+              "index": 1437
+            },
+            "end": {
+              "line": 47,
+              "column": 1,
+              "index": 1438
+            }
+          },
+          "text": "\n"
+        }
+      ],
+      "children": [
+        {
+          "type": "line-break",
+          "tokens": [
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 11,
+                  "column": 0,
+                  "index": 161
+                },
+                "end": {
+                  "line": 11,
+                  "column": 1,
+                  "index": 162
+                }
+              },
+              "text": "\n"
+            }
+          ]
+        },
+        {
+          "type": "boneyard",
+          "tokens": [
+            {
+              "type": "boneyard",
+              "line": "/* This is a quick tutorial on how to quickly outline stories in Beat, introducing you to the more advanced features. */",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "column": 0,
+                  "index": 162,
+                  "line": 12
+                },
+                "end": {
+                  "column": 116,
+                  "index": 278,
+                  "line": 12
+                }
+              },
+              "text": " This is a quick tutorial on how to quickly outline stories in Beat, introducing you to the more advanced features. "
+            }
+          ]
+        },
+        {
+          "type": "line-break",
+          "tokens": [
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 13,
+                  "column": 0,
+                  "index": 283
+                },
+                "end": {
+                  "line": 13,
+                  "column": 1,
+                  "index": 284
+                }
+              },
+              "text": "\n"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "tokens": [
+            {
+              "type": "scene_heading",
+              "line": "INT. LIBRARY - MORNING",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 14,
+                  "column": 0,
+                  "index": 284
+                },
+                "end": {
+                  "line": 14,
+                  "column": 23,
+                  "index": 307
+                }
+              },
+              "text": "INT. LIBRARY - MORNING"
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 15,
+                  "column": 0,
+                  "index": 307
+                },
+                "end": {
+                  "line": 15,
+                  "column": 1,
+                  "index": 308
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "action",
+              "line": "By default, the index card view shows an automatically created snippet. It's usually the first action paragraph in the scene. It's not ideal when at the outlining stage, so it's easy to set up your own index card content.",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 16,
+                  "column": 0,
+                  "index": 308
+                },
+                "end": {
+                  "line": 16,
+                  "column": 222,
+                  "index": 530
+                }
+              },
+              "text": "By default, the index card view shows an automatically created snippet. It's usually the first action paragraph in the scene. It's not ideal when at the outlining stage, so it's easy to set up your own index card content."
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 17,
+                  "column": 0,
+                  "index": 530
+                },
+                "end": {
+                  "line": 17,
+                  "column": 1,
+                  "index": 531
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 18,
+                  "column": 0,
+                  "index": 531
+                },
+                "end": {
+                  "line": 18,
+                  "column": 1,
+                  "index": 532
+                }
+              },
+              "text": "\n"
+            }
+          ],
+          "children": [
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 15,
+                      "column": 0,
+                      "index": 307
+                    },
+                    "end": {
+                      "line": 15,
+                      "column": 1,
+                      "index": 308
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "action",
+              "tokens": [
+                {
+                  "type": "action",
+                  "line": "By default, the index card view shows an automatically created snippet. It's usually the first action paragraph in the scene. It's not ideal when at the outlining stage, so it's easy to set up your own index card content.",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 16,
+                      "column": 0,
+                      "index": 308
+                    },
+                    "end": {
+                      "line": 16,
+                      "column": 222,
+                      "index": 530
+                    }
+                  },
+                  "text": "By default, the index card view shows an automatically created snippet. It's usually the first action paragraph in the scene. It's not ideal when at the outlining stage, so it's easy to set up your own index card content."
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 17,
+                      "column": 0,
+                      "index": 530
+                    },
+                    "end": {
+                      "line": 17,
+                      "column": 1,
+                      "index": 531
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 18,
+                      "column": 0,
+                      "index": 531
+                    },
+                    "end": {
+                      "line": 18,
+                      "column": 1,
+                      "index": 532
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            }
+          ],
+          "title": "INT. LIBRARY - MORNING",
+          "depth": 2,
+          "location": {
+            "name": "LIBRARY",
+            "locationType": 1,
+            "timeOfDay": "MORNING"
+          }
+        },
+        {
+          "type": "scene",
+          "tokens": [
+            {
+              "type": "scene_heading",
+              "line": "INT. SCHOOL ROOM - DAY",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 19,
+                  "column": 0,
+                  "index": 532
+                },
+                "end": {
+                  "line": 19,
+                  "column": 23,
+                  "index": 555
+                }
+              },
+              "text": "INT. SCHOOL ROOM - DAY"
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 20,
+                  "column": 0,
+                  "index": 555
+                },
+                "end": {
+                  "line": 20,
+                  "column": 1,
+                  "index": 556
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "synopsis",
+              "line": "= A synopsis line will be displayed as the scene's content in the index card view. These lines don't print out in the final screenplay.",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 21,
+                  "column": 0,
+                  "index": 556
+                },
+                "end": {
+                  "line": 21,
+                  "column": 136,
+                  "index": 692
+                }
+              },
+              "text": "A synopsis line will be displayed as the scene's content in the index card view. These lines don't print out in the final screenplay."
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 22,
+                  "column": 0,
+                  "index": 692
+                },
+                "end": {
+                  "line": 22,
+                  "column": 1,
+                  "index": 693
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 23,
+                  "column": 0,
+                  "index": 693
+                },
+                "end": {
+                  "line": 23,
+                  "column": 1,
+                  "index": 694
+                }
+              },
+              "text": "\n"
+            }
+          ],
+          "children": [
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 20,
+                      "column": 0,
+                      "index": 555
+                    },
+                    "end": {
+                      "line": 20,
+                      "column": 1,
+                      "index": 556
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "synopses",
+              "tokens": [
+                {
+                  "type": "synopsis",
+                  "line": "= A synopsis line will be displayed as the scene's content in the index card view. These lines don't print out in the final screenplay.",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 21,
+                      "column": 0,
+                      "index": 556
+                    },
+                    "end": {
+                      "line": 21,
+                      "column": 136,
+                      "index": 692
+                    }
+                  },
+                  "text": "A synopsis line will be displayed as the scene's content in the index card view. These lines don't print out in the final screenplay."
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 22,
+                      "column": 0,
+                      "index": 692
+                    },
+                    "end": {
+                      "line": 22,
+                      "column": 1,
+                      "index": 693
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 23,
+                      "column": 0,
+                      "index": 693
+                    },
+                    "end": {
+                      "line": 23,
+                      "column": 1,
+                      "index": 694
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            }
+          ],
+          "title": "INT. SCHOOL ROOM - DAY",
+          "depth": 2,
+          "location": {
+            "name": "SCHOOL ROOM",
+            "locationType": 1,
+            "timeOfDay": "DAY"
+          }
+        },
+        {
+          "type": "scene",
+          "tokens": [
+            {
+              "type": "scene_heading",
+              "line": "EXT. SCHOOL YARD - DAY",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 24,
+                  "column": 0,
+                  "index": 694
+                },
+                "end": {
+                  "line": 24,
+                  "column": 23,
+                  "index": 717
+                }
+              },
+              "text": "EXT. SCHOOL YARD - DAY"
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 25,
+                  "column": 0,
+                  "index": 717
+                },
+                "end": {
+                  "line": 25,
+                  "column": 1,
+                  "index": 718
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "note_begin",
+              "line": "[[You can also use a note, whichever you prefer.]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "column": 0,
+                  "index": 718,
+                  "line": 26
+                },
+                "end": {
+                  "column": 2,
+                  "index": 720,
+                  "line": 26
+                }
+              },
+              "text": ""
+            },
+            {
+              "type": "note",
+              "line": "[[You can also use a note, whichever you prefer.]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "column": 0,
+                  "index": 718,
+                  "line": 26
+                },
+                "end": {
+                  "column": 46,
+                  "index": 764,
+                  "line": 26
+                }
+              },
+              "text": "You can also use a note, whichever you prefer."
+            },
+            {
+              "type": "note_end",
+              "line": "[[You can also use a note, whichever you prefer.]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "column": 46,
+                  "index": 764,
+                  "line": 26
+                },
+                "end": {
+                  "column": 48,
+                  "index": 766,
+                  "line": 26
+                }
+              },
+              "text": ""
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 27,
+                  "column": 0,
+                  "index": 769
+                },
+                "end": {
+                  "line": 27,
+                  "column": 1,
+                  "index": 770
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 28,
+                  "column": 0,
+                  "index": 770
+                },
+                "end": {
+                  "line": 28,
+                  "column": 1,
+                  "index": 771
+                }
+              },
+              "text": "\n"
+            }
+          ],
+          "children": [
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 25,
+                      "column": 0,
+                      "index": 717
+                    },
+                    "end": {
+                      "line": 25,
+                      "column": 1,
+                      "index": 718
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "notes",
+              "tokens": [
+                {
+                  "type": "note",
+                  "line": "[[You can also use a note, whichever you prefer.]]",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "column": 0,
+                      "index": 718,
+                      "line": 26
+                    },
+                    "end": {
+                      "column": 46,
+                      "index": 764,
+                      "line": 26
+                    }
+                  },
+                  "text": "You can also use a note, whichever you prefer."
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 27,
+                      "column": 0,
+                      "index": 769
+                    },
+                    "end": {
+                      "line": 27,
+                      "column": 1,
+                      "index": 770
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 28,
+                      "column": 0,
+                      "index": 770
+                    },
+                    "end": {
+                      "line": 28,
+                      "column": 1,
+                      "index": 771
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            }
+          ],
+          "title": "EXT. SCHOOL YARD - DAY",
+          "depth": 2,
+          "location": {
+            "name": "SCHOOL YARD",
+            "locationType": 2,
+            "timeOfDay": "DAY"
+          }
+        },
+        {
+          "type": "scene",
+          "tokens": [
+            {
+              "type": "scene_heading",
+              "line": "EXT. BEACH - NIGHT [[COLOR RED]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 29,
+                  "column": 0,
+                  "index": 771
+                },
+                "end": {
+                  "column": 19,
+                  "index": 790,
+                  "line": 29
+                }
+              },
+              "text": "EXT. BEACH - NIGHT "
+            },
+            {
+              "type": "note_begin",
+              "line": "EXT. BEACH - NIGHT [[COLOR RED]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "column": 19,
+                  "index": 790,
+                  "line": 29
+                },
+                "end": {
+                  "column": 21,
+                  "index": 792,
+                  "line": 29
+                }
+              },
+              "text": ""
+            },
+            {
+              "type": "note",
+              "line": "EXT. BEACH - NIGHT [[COLOR RED]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "column": 19,
+                  "index": 790,
+                  "line": 29
+                },
+                "end": {
+                  "column": 28,
+                  "index": 799,
+                  "line": 29
+                }
+              },
+              "text": "COLOR RED"
+            },
+            {
+              "type": "note_end",
+              "line": "EXT. BEACH - NIGHT [[COLOR RED]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "column": 28,
+                  "index": 799,
+                  "line": 29
+                },
+                "end": {
+                  "column": 30,
+                  "index": 801,
+                  "line": 29
+                }
+              },
+              "text": ""
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 30,
+                  "column": 0,
+                  "index": 804
+                },
+                "end": {
+                  "line": 30,
+                  "column": 1,
+                  "index": 805
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "synopsis",
+              "line": "= Setting a color for your scenes makes it easier to distinguish them from each other. Colors can be used to follow storylines, or just as markers. For example: Does a scene need work, is it maybe unimportant, or does it mark a big change for a character?",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 31,
+                  "column": 0,
+                  "index": 805
+                },
+                "end": {
+                  "line": 31,
+                  "column": 256,
+                  "index": 1061
+                }
+              },
+              "text": "Setting a color for your scenes makes it easier to distinguish them from each other. Colors can be used to follow storylines, or just as markers. For example: Does a scene need work, is it maybe unimportant, or does it mark a big change for a character?"
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 32,
+                  "column": 0,
+                  "index": 1061
+                },
+                "end": {
+                  "line": 32,
+                  "column": 1,
+                  "index": 1062
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "action",
+              "line": "Did you know that you can filter scenes by their color in the **Outline View** (⌘D)?",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 33,
+                  "column": 0,
+                  "index": 1062
+                },
+                "end": {
+                  "line": 33,
+                  "column": 85,
+                  "index": 1147
+                }
+              },
+              "text": "Did you know that you can filter scenes by their color in the **Outline View** (⌘D)?"
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 34,
+                  "column": 0,
+                  "index": 1147
+                },
+                "end": {
+                  "line": 34,
+                  "column": 1,
+                  "index": 1148
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 35,
+                  "column": 0,
+                  "index": 1148
+                },
+                "end": {
+                  "line": 35,
+                  "column": 1,
+                  "index": 1149
+                }
+              },
+              "text": "\n"
+            }
+          ],
+          "children": [
+            {
+              "type": "notes",
+              "tokens": [
+                {
+                  "type": "note",
+                  "line": "EXT. BEACH - NIGHT [[COLOR RED]]",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "column": 19,
+                      "index": 790,
+                      "line": 29
+                    },
+                    "end": {
+                      "column": 28,
+                      "index": 799,
+                      "line": 29
+                    }
+                  },
+                  "text": "COLOR RED"
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 30,
+                      "column": 0,
+                      "index": 804
+                    },
+                    "end": {
+                      "line": 30,
+                      "column": 1,
+                      "index": 805
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "synopses",
+              "tokens": [
+                {
+                  "type": "synopsis",
+                  "line": "= Setting a color for your scenes makes it easier to distinguish them from each other. Colors can be used to follow storylines, or just as markers. For example: Does a scene need work, is it maybe unimportant, or does it mark a big change for a character?",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 31,
+                      "column": 0,
+                      "index": 805
+                    },
+                    "end": {
+                      "line": 31,
+                      "column": 256,
+                      "index": 1061
+                    }
+                  },
+                  "text": "Setting a color for your scenes makes it easier to distinguish them from each other. Colors can be used to follow storylines, or just as markers. For example: Does a scene need work, is it maybe unimportant, or does it mark a big change for a character?"
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 32,
+                      "column": 0,
+                      "index": 1061
+                    },
+                    "end": {
+                      "line": 32,
+                      "column": 1,
+                      "index": 1062
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "action",
+              "tokens": [
+                {
+                  "type": "action",
+                  "line": "Did you know that you can filter scenes by their color in the **Outline View** (⌘D)?",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 33,
+                      "column": 0,
+                      "index": 1062
+                    },
+                    "end": {
+                      "line": 33,
+                      "column": 85,
+                      "index": 1147
+                    }
+                  },
+                  "text": "Did you know that you can filter scenes by their color in the **Outline View** (⌘D)?"
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 34,
+                      "column": 0,
+                      "index": 1147
+                    },
+                    "end": {
+                      "line": 34,
+                      "column": 1,
+                      "index": 1148
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 35,
+                      "column": 0,
+                      "index": 1148
+                    },
+                    "end": {
+                      "line": 35,
+                      "column": 1,
+                      "index": 1149
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            }
+          ],
+          "title": "EXT. BEACH - NIGHT ",
+          "depth": 2,
+          "location": {
+            "name": "BEACH",
+            "locationType": 2,
+            "timeOfDay": "NIGHT"
+          }
+        },
+        {
+          "type": "scene",
+          "tokens": [
+            {
+              "type": "scene_heading",
+              "line": "INT. BEDROOM - NIGHT [[STORYLINE MAIN]] [[COLOR BLUE]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 36,
+                  "column": 0,
+                  "index": 1149
+                },
+                "end": {
+                  "column": 21,
+                  "index": 1170,
+                  "line": 36
+                }
+              },
+              "text": "INT. BEDROOM - NIGHT "
+            },
+            {
+              "type": "note_begin",
+              "line": "INT. BEDROOM - NIGHT [[STORYLINE MAIN]] [[COLOR BLUE]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "column": 21,
+                  "index": 1170,
+                  "line": 36
+                },
+                "end": {
+                  "column": 23,
+                  "index": 1172,
+                  "line": 36
+                }
+              },
+              "text": ""
+            },
+            {
+              "type": "note",
+              "line": "INT. BEDROOM - NIGHT [[STORYLINE MAIN]] [[COLOR BLUE]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "column": 21,
+                  "index": 1170,
+                  "line": 36
+                },
+                "end": {
+                  "column": 35,
+                  "index": 1184,
+                  "line": 36
+                }
+              },
+              "text": "STORYLINE MAIN"
+            },
+            {
+              "type": "note_end",
+              "line": "INT. BEDROOM - NIGHT [[STORYLINE MAIN]] [[COLOR BLUE]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "column": 35,
+                  "index": 1184,
+                  "line": 36
+                },
+                "end": {
+                  "column": 37,
+                  "index": 1186,
+                  "line": 36
+                }
+              },
+              "text": ""
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 37,
+                  "column": 0,
+                  "index": 1204
+                },
+                "end": {
+                  "line": 37,
+                  "column": 1,
+                  "index": 1205
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "action",
+              "line": "The storyline feature is still a work-in-progress, but you can test it out manually.",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 38,
+                  "column": 0,
+                  "index": 1205
+                },
+                "end": {
+                  "line": 38,
+                  "column": 85,
+                  "index": 1290
+                }
+              },
+              "text": "The storyline feature is still a work-in-progress, but you can test it out manually."
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 39,
+                  "column": 0,
+                  "index": 1290
+                },
+                "end": {
+                  "line": 39,
+                  "column": 1,
+                  "index": 1291
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 40,
+                  "column": 0,
+                  "index": 1291
+                },
+                "end": {
+                  "line": 40,
+                  "column": 1,
+                  "index": 1292
+                }
+              },
+              "text": "\n"
+            }
+          ],
+          "children": [
+            {
+              "type": "notes",
+              "tokens": [
+                {
+                  "type": "note",
+                  "line": "INT. BEDROOM - NIGHT [[STORYLINE MAIN]] [[COLOR BLUE]]",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "column": 21,
+                      "index": 1170,
+                      "line": 36
+                    },
+                    "end": {
+                      "column": 35,
+                      "index": 1184,
+                      "line": 36
+                    }
+                  },
+                  "text": "STORYLINE MAIN"
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 37,
+                      "column": 0,
+                      "index": 1204
+                    },
+                    "end": {
+                      "line": 37,
+                      "column": 1,
+                      "index": 1205
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "action",
+              "tokens": [
+                {
+                  "type": "action",
+                  "line": "The storyline feature is still a work-in-progress, but you can test it out manually.",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 38,
+                      "column": 0,
+                      "index": 1205
+                    },
+                    "end": {
+                      "line": 38,
+                      "column": 85,
+                      "index": 1290
+                    }
+                  },
+                  "text": "The storyline feature is still a work-in-progress, but you can test it out manually."
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 39,
+                      "column": 0,
+                      "index": 1290
+                    },
+                    "end": {
+                      "line": 39,
+                      "column": 1,
+                      "index": 1291
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 40,
+                      "column": 0,
+                      "index": 1291
+                    },
+                    "end": {
+                      "line": 40,
+                      "column": 1,
+                      "index": 1292
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            }
+          ],
+          "title": "INT. BEDROOM - NIGHT ",
+          "depth": 2,
+          "location": {
+            "name": "BEDROOM",
+            "locationType": 1,
+            "timeOfDay": "NIGHT"
+          }
+        },
+        {
+          "type": "scene",
+          "tokens": [
+            {
+              "type": "scene_heading",
+              "line": "INT. BEDROOM - MORNING [[STORYLINE MAIN, SUBPLOT]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 41,
+                  "column": 0,
+                  "index": 1292
+                },
+                "end": {
+                  "column": 23,
+                  "index": 1315,
+                  "line": 41
+                }
+              },
+              "text": "INT. BEDROOM - MORNING "
+            },
+            {
+              "type": "note_begin",
+              "line": "INT. BEDROOM - MORNING [[STORYLINE MAIN, SUBPLOT]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "column": 23,
+                  "index": 1315,
+                  "line": 41
+                },
+                "end": {
+                  "column": 25,
+                  "index": 1317,
+                  "line": 41
+                }
+              },
+              "text": ""
+            },
+            {
+              "type": "note",
+              "line": "INT. BEDROOM - MORNING [[STORYLINE MAIN, SUBPLOT]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "column": 23,
+                  "index": 1315,
+                  "line": 41
+                },
+                "end": {
+                  "column": 46,
+                  "index": 1338,
+                  "line": 41
+                }
+              },
+              "text": "STORYLINE MAIN, SUBPLOT"
+            },
+            {
+              "type": "note_end",
+              "line": "INT. BEDROOM - MORNING [[STORYLINE MAIN, SUBPLOT]]",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "column": 46,
+                  "index": 1338,
+                  "line": 41
+                },
+                "end": {
+                  "column": 48,
+                  "index": 1340,
+                  "line": 41
+                }
+              },
+              "text": ""
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 42,
+                  "column": 0,
+                  "index": 1343
+                },
+                "end": {
+                  "line": 42,
+                  "column": 1,
+                  "index": 1344
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "action",
+              "line": "Scenes can belong to multiple storylines, too. They line out nicely in the Timeline View.",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 43,
+                  "column": 0,
+                  "index": 1344
+                },
+                "end": {
+                  "line": 43,
+                  "column": 90,
+                  "index": 1434
+                }
+              },
+              "text": "Scenes can belong to multiple storylines, too. They line out nicely in the Timeline View."
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 44,
+                  "column": 0,
+                  "index": 1434
+                },
+                "end": {
+                  "line": 44,
+                  "column": 1,
+                  "index": 1435
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 45,
+                  "column": 0,
+                  "index": 1435
+                },
+                "end": {
+                  "line": 45,
+                  "column": 1,
+                  "index": 1436
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 46,
+                  "column": 0,
+                  "index": 1436
+                },
+                "end": {
+                  "line": 46,
+                  "column": 1,
+                  "index": 1437
+                }
+              },
+              "text": "\n"
+            },
+            {
+              "type": "line_break",
+              "line": "",
+              "codeLocation": {
+                "file": "",
+                "start": {
+                  "line": 47,
+                  "column": 0,
+                  "index": 1437
+                },
+                "end": {
+                  "line": 47,
+                  "column": 1,
+                  "index": 1438
+                }
+              },
+              "text": "\n"
+            }
+          ],
+          "children": [
+            {
+              "type": "notes",
+              "tokens": [
+                {
+                  "type": "note",
+                  "line": "INT. BEDROOM - MORNING [[STORYLINE MAIN, SUBPLOT]]",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "column": 23,
+                      "index": 1315,
+                      "line": 41
+                    },
+                    "end": {
+                      "column": 46,
+                      "index": 1338,
+                      "line": 41
+                    }
+                  },
+                  "text": "STORYLINE MAIN, SUBPLOT"
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 42,
+                      "column": 0,
+                      "index": 1343
+                    },
+                    "end": {
+                      "line": 42,
+                      "column": 1,
+                      "index": 1344
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "action",
+              "tokens": [
+                {
+                  "type": "action",
+                  "line": "Scenes can belong to multiple storylines, too. They line out nicely in the Timeline View.",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 43,
+                      "column": 0,
+                      "index": 1344
+                    },
+                    "end": {
+                      "line": 43,
+                      "column": 90,
+                      "index": 1434
+                    }
+                  },
+                  "text": "Scenes can belong to multiple storylines, too. They line out nicely in the Timeline View."
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 44,
+                      "column": 0,
+                      "index": 1434
+                    },
+                    "end": {
+                      "line": 44,
+                      "column": 1,
+                      "index": 1435
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 45,
+                      "column": 0,
+                      "index": 1435
+                    },
+                    "end": {
+                      "line": 45,
+                      "column": 1,
+                      "index": 1436
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 46,
+                      "column": 0,
+                      "index": 1436
+                    },
+                    "end": {
+                      "line": 46,
+                      "column": 1,
+                      "index": 1437
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "line-break",
+              "tokens": [
+                {
+                  "type": "line_break",
+                  "line": "",
+                  "codeLocation": {
+                    "file": "",
+                    "start": {
+                      "line": 47,
+                      "column": 0,
+                      "index": 1437
+                    },
+                    "end": {
+                      "line": 47,
+                      "column": 1,
+                      "index": 1438
+                    }
+                  },
+                  "text": "\n"
+                }
+              ]
+            }
+          ],
+          "title": "INT. BEDROOM - MORNING ",
+          "depth": 2,
+          "location": {
+            "name": "BEDROOM",
+            "locationType": 1,
+            "timeOfDay": "MORNING"
+          }
+        }
+      ],
+      "title": "Outlining Tutorial",
+      "depth": 1
+    }
+  ]
+}
