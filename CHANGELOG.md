@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/oparaskos/fountain-parser/compare/v1.0.0...v1.1.0) (2023-11-17)
+
+
+### Features
+
+* manual bump ([ceb0620](https://github.com/oparaskos/fountain-parser/commit/ceb0620f2b7477b2cd789154b038cad979a02821))
+
 # 1.0.0 (2023-11-17)
 
 
