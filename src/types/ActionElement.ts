@@ -8,6 +8,11 @@ export class ActionElement extends FountainElement<'action'> {
         super('action', tokens);
     }
 
+
+    public get textContent() {
+        return super.textContent.replace(/^!/,'');
+    }
+
     public get duration() {
         // Assumes about 20 characters for 1 second worth of acting.
         return (this.textContent.length) / 20;

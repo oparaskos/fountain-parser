@@ -9,7 +9,7 @@
       "tokens": [
         {
           "type": "action",
-          "line": "Page one.",
+          "line": "!BANG",
           "codeLocation": {
             "file": "",
             "start": {
@@ -19,43 +19,43 @@
             },
             "end": {
               "line": 0,
-              "column": 10,
-              "index": 10
+              "column": 6,
+              "index": 6
             }
           },
-          "text": "Page one."
+          "text": "!BANG"
         }
       ]
     },
     {
-      "type": "line-break",
+      "type": "action",
       "tokens": [
         {
-          "type": "line_break",
-          "line": "",
+          "type": "action",
+          "line": "BANG",
           "codeLocation": {
             "file": "",
             "start": {
               "line": 1,
               "column": 0,
-              "index": 10
+              "index": 6
             },
             "end": {
               "line": 1,
-              "column": 1,
+              "column": 5,
               "index": 11
             }
           },
-          "text": "\n"
+          "text": "BANG"
         }
       ]
     },
     {
-      "type": "page-break",
+      "type": "action",
       "tokens": [
         {
-          "type": "page_break",
-          "line": "===",
+          "type": "action",
+          "line": "BANG",
           "codeLocation": {
             "file": "",
             "start": {
@@ -65,11 +65,11 @@
             },
             "end": {
               "line": 2,
-              "column": 4,
-              "index": 15
+              "column": 5,
+              "index": 16
             }
           },
-          "text": "==="
+          "text": "BANG"
         }
       ]
     },
@@ -84,12 +84,12 @@
             "start": {
               "line": 3,
               "column": 0,
-              "index": 15
+              "index": 16
             },
             "end": {
               "line": 3,
               "column": 1,
-              "index": 16
+              "index": 17
             }
           },
           "text": "\n"
@@ -97,80 +97,75 @@
       ]
     },
     {
-      "type": "action",
+      "type": "dialogue",
       "tokens": [
         {
-          "type": "action",
-          "line": "Page two.",
+          "type": "character",
+          "line": "@McDUCK",
           "codeLocation": {
             "file": "",
             "start": {
               "line": 4,
               "column": 0,
-              "index": 16
+              "index": 17
             },
             "end": {
               "line": 4,
-              "column": 10,
-              "index": 26
+              "column": 8,
+              "index": 25
             }
           },
-          "text": "Page two."
-        }
-      ]
-    },
-    {
-      "type": "line-break",
-      "tokens": [
+          "text": "McDUCK"
+        },
         {
-          "type": "line_break",
-          "line": "",
+          "type": "dialogue",
+          "line": "I'm vegan.",
           "codeLocation": {
             "file": "",
             "start": {
               "line": 5,
               "column": 0,
-              "index": 26
+              "index": 25
             },
             "end": {
               "line": 5,
-              "column": 1,
-              "index": 27
+              "column": 11,
+              "index": 36
             }
           },
-          "text": "\n"
+          "text": "I'm vegan."
         }
-      ]
-    },
-    {
-      "type": "page-break",
-      "tokens": [
+      ],
+      "character": "McDUCK",
+      "extension": null,
+      "parenthetical": null,
+      "dialogueTokens": [
         {
-          "type": "page_break",
-          "line": "=========",
+          "type": "dialogue",
+          "line": "I'm vegan.",
           "codeLocation": {
             "file": "",
             "start": {
-              "line": 6,
+              "line": 5,
               "column": 0,
-              "index": 27
+              "index": 25
             },
             "end": {
-              "line": 6,
-              "column": 10,
-              "index": 37
+              "line": 5,
+              "column": 11,
+              "index": 36
             }
           },
-          "text": "========="
+          "text": "I'm vegan."
         }
       ]
     },
     {
-      "type": "line-break",
+      "type": "dialogue",
       "tokens": [
         {
-          "type": "line_break",
-          "line": "",
+          "type": "character",
+          "line": "SINGER",
           "codeLocation": {
             "file": "",
             "start": {
@@ -180,57 +175,88 @@
             },
             "end": {
               "line": 7,
-              "column": 1,
-              "index": 38
+              "column": 7,
+              "index": 44
             }
           },
-          "text": "\n"
-        }
-      ]
-    },
-    {
-      "type": "action",
-      "tokens": [
+          "text": "SINGER"
+        },
         {
-          "type": "action",
-          "line": "Page three.",
+          "type": "lyrics",
+          "line": "~These are the songs",
           "codeLocation": {
             "file": "",
             "start": {
               "line": 8,
               "column": 0,
-              "index": 38
+              "index": 44
             },
             "end": {
               "line": 8,
-              "column": 12,
-              "index": 50
+              "column": 21,
+              "index": 65
             }
           },
-          "text": "Page three."
-        }
-      ]
-    },
-    {
-      "type": "line-break",
-      "tokens": [
+          "text": "~These are the songs"
+        },
         {
-          "type": "line_break",
-          "line": "",
+          "type": "lyrics",
+          "line": "~That I sing.",
           "codeLocation": {
             "file": "",
             "start": {
               "line": 9,
               "column": 0,
-              "index": 50
+              "index": 65
             },
             "end": {
               "line": 9,
-              "column": 1,
-              "index": 51
+              "column": 14,
+              "index": 79
             }
           },
-          "text": "\n"
+          "text": "~That I sing."
+        }
+      ],
+      "character": "SINGER",
+      "extension": null,
+      "parenthetical": null,
+      "dialogueTokens": [
+        {
+          "type": "lyrics",
+          "line": "~These are the songs",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 8,
+              "column": 0,
+              "index": 44
+            },
+            "end": {
+              "line": 8,
+              "column": 21,
+              "index": 65
+            }
+          },
+          "text": "~These are the songs"
+        },
+        {
+          "type": "lyrics",
+          "line": "~That I sing.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 9,
+              "column": 0,
+              "index": 65
+            },
+            "end": {
+              "line": 9,
+              "column": 14,
+              "index": 79
+            }
+          },
+          "text": "~That I sing."
         }
       ]
     }

@@ -22,6 +22,7 @@ import { LineBreakElement } from "./types/LineBreakElement";
 import { SynopsesElement } from "./types/SynopsesElement";
 import { BoneyardElement } from "./types/BoneyardElement";
 import { NotesElement } from "./types/index";
+import { LyricsElement } from "./types/LyricsElement";
 
 const FountainRegexSceneHeading = /^((?:\*{0,3}_?)?(?:(?:int|ext|est|i\/e)[. ]).+)|^(?:\.(?!\.+))(.+)/i;
 const FountainRegexSceneNumber = /( *#(.+)# *)/;
@@ -29,17 +30,7 @@ const FountainRegexTransition = /^((?:FADE (?:TO BLACK|OUT)|CUT TO BLACK)\.|.+ T
 const FountainRegexCentered = /^(?:> *)(.+)(?: *<)(\n.+)*/g;
 const FountainRegexSection = /^(#+)(?: *)(.*)/;
 const FountainRegexSynopsis = /^(?:=(?!=+) *)(.*)/;
-const FountainRegexPageBreak = /^={3,}$/;
 const FountainRegexLineBreak = /^ {2}$/;
-// TODO: handle formatting here or in the presentation layer?
-// const FountainRegexEmphasis = /(_|\*{1,3}|_\*{1,3}|\*{1,3}_)(.+)(_|\*{1,3}|_\*{1,3}|\*{1,3}_)/g;
-// const FountainRegexBoldItalicUnderline = /(_{1}\*{3}(?=.+\*{3}_{1})|\*{3}_{1}(?=.+_{1}\*{3}))(.+?)(\*{3}_{1}|_{1}\*{3})/g;
-// const FountainRegexBoldUnderline = /(_{1}\*{2}(?=.+\*{2}_{1})|\*{2}_{1}(?=.+_{1}\*{2}))(.+?)(\*{2}_{1}|_{1}\*{2})/g;
-// const FountainRegexItalicUnderline = /(?:_{1}\*{1}(?=.+\*{1}_{1})|\*{1}_{1}(?=.+_{1}\*{1}))(.+?)(\*{1}_{1}|_{1}\*{1})/g;
-// const FountainRegexBoldItalic = /(\*{3}(?=.+\*{3}))(.+?)(\*{3})/g;
-// const FountainRegexBold = /(\*{2}(?=.+\*{2}))(.+?)(\*{2})/g;
-// const FountainRegexItalic = /(\*{1}(?=.+\*{1}))(.+?)(\*{1})/g;
-// const FountainRegexUnderline = /(_{1}(?=.+_{1}))(.+?)(_{1})/g;
 const FountainRegexNewlineWithCarriageReturn = /\r\n|\r/g;
 
 function findLastNonWhitespace(tokens: FountainToken[]) {
@@ -98,7 +89,7 @@ export function tokenize(script: string) {
 export function parse(script: string): FountainScript {
     const tokens = tokenize(script);
     const firstNonTitlePageElementIndex = tokens.findIndex(t => t.type !== 'title_page');
-    const titlePageTokens = tokens.slice(0, firstNonTitlePageElementIndex);
+    const titlePageTokens = (firstNonTitlePageElementIndex == -1) ? tokens : tokens.slice(0, firstNonTitlePageElementIndex);
     const titlePage: FountainElement = new FountainTitlePage(titlePageTokens);
     const scriptElements: FountainElement[] = _parse(tokens.slice(firstNonTitlePageElementIndex));
     return new FountainScript([titlePage].concat(scriptElements));
@@ -121,6 +112,7 @@ function parseToken(token: FountainToken, data: FountainElement<FountainElementT
         case 'action': data.push(new ActionElement([token])); break;
         case 'centered': data.push(new CenteredTextElement([token])); break;
         case 'page_break': data.push(new PageBreakElement([token])); break;
+        case 'lyrics': data.push(new LyricsElement([token])); break;
         case 'line_break': data.push(new LineBreakElement([token])); break;
         case 'boneyard': parseBoneyard(data, token); break;
         case 'note': parseNote(data, token); break;
@@ -142,7 +134,7 @@ function parseToken(token: FountainToken, data: FountainElement<FountainElementT
 }
 
 function parseCharacter(tokens: FountainToken[], i: number, token: FountainToken, data: FountainElement<FountainElementType>[]) {
-    let nextNonDialogue = tokens.findIndex((t, id) => id > i && t.type !== 'dialogue' && t.type !== 'parenthetical');
+    let nextNonDialogue = tokens.findIndex((t, id) => id > i && t.type !== 'dialogue' && t.type !== 'parenthetical' && t.type !== 'lyrics');
     if (nextNonDialogue === -1) nextNonDialogue = tokens.length; // we must be at the end of the script
     const [nextI, result] = parseDialogue(token, tokens, i, nextNonDialogue);
     data.push(result);
@@ -194,20 +186,23 @@ function parseBoneyard(data: FountainElement<FountainElementType>[], token: Foun
 }
 
 function parseDialogue(token: FountainToken, tokens: FountainToken[], i: number, nextNonDialogue: number): [number, DialogueElement | DualDialogueElement] {
+    // Find the character name and seperate out parentheticals
     const hasCharacterExtension = token.text && (/\(.*\)/).test(token.text);
     const extension = hasCharacterExtension ? token.text?.split('(')[1].split(')')[0] : null;
     let characterName = (hasCharacterExtension ? token.text!!.split('(')[0] : token.text!!).trim();
     if (characterName.endsWith('^')) characterName = characterName.substring(0, characterName.length - 2).trim();
     const hasParenthetical = tokens.length > i + 1 && tokens[i + 1].type === 'parenthetical';
     const parenthetical = hasParenthetical ? tokens[i + 1] : null;
+    
     const dialogueTokens = tokens.slice(i + 1, nextNonDialogue ?? tokens.length);
     const dialogueElement: DialogueElement
         = new DialogueElement(filterNotNull([token, parenthetical, ...dialogueTokens]), characterName, extension || null, parenthetical || null, dialogueTokens);
-
-    if (nextNonDialogue >= tokens.length || nextNonDialogue <= -1) return [-1, dialogueElement]; // bail out
+    if (nextNonDialogue >= tokens.length || nextNonDialogue <= -1) {
+        return [nextNonDialogue, dialogueElement]; // bail out
+    }
     if (tokens[nextNonDialogue].type === 'character' && tokens[nextNonDialogue].text?.trim().endsWith('^')) {
         // This is dual dialogue
-        const nextNextNonDialogue = tokens.findIndex((t, id) => id > i && t.type !== 'dialogue' && t.type !== 'parenthetical');
+        const nextNextNonDialogue = tokens.findIndex((t, id) => id > i && t.type !== 'dialogue' && t.type !== 'parenthetical' && t.type != "lyrics");
         const [nextTokenIndex, rightDialogue] = parseDialogue(tokens[nextNonDialogue], tokens, nextNonDialogue, nextNextNonDialogue);
         const children = [dialogueElement];
         if (rightDialogue instanceof DualDialogueElement) {
@@ -245,22 +240,33 @@ function extractToken(fullLine: string, codeLocation: SourceMapElement, lastToke
 
     const lineSegment = fullLine.substring(rangeStart, rangeEnd);
 
+    if (lineSegment.startsWith('===')) return [createToken('page_break', fullLine, lineSegment, codeLocation)];
     if (lineSegment.startsWith('!')) return [createToken('action', fullLine, lineSegment, codeLocation)];
     if (lineSegment.startsWith('=')) return [createSynopsisTokenFromLine(fullLine, lineSegment, codeLocation)];
+    if (lineSegment.startsWith('~')) return [createToken('lyrics', fullLine, lineSegment, codeLocation)];
+
+    const trimmedLine = fullLine.trim()
+
+    // blank line after title page is the end of the title page. insert a page break.
+    if (trimmedLine.length === 0 && lastToken?.type === 'title_page') return [createToken('page_break', fullLine, lineSegment, codeLocation)];
 
     // title page
     if (!lastNonWhitespaceToken || lastNonWhitespaceToken.type === 'title_page' ) {
-        const colonLocation = fullLine.indexOf(':');
-        if (colonLocation > -1) {
-            return [createTitlePageToken(fullLine, colonLocation, codeLocation)];
-        } else if (lastToken && lastToken?.type === 'title_page') {
-            // title page values can have newlines so this must be a continuation of a previous property
-            lastToken.text += '\n' + fullLine;
-            lastToken.codeLocation.end = codeLocation.end;
+        match = lineSegment.match(FountainRegexTransition);
+        if (!match) { // can still have a colon if it is a transition
+            const colonLocation = fullLine.indexOf(':'); // otherwise assume colon denotes a key value pair and therefore a title page.
+            if (colonLocation > -1) {
+                return [createTitlePageToken(fullLine, colonLocation, codeLocation)];
+            } else if (lastToken && lastToken?.type === 'title_page') {
+                // title page values can have newlines so this must be a continuation of a previous property
+                lastToken.text += '\n' + fullLine;
+                lastToken.codeLocation.end = codeLocation.end;
+                return [];
+            }
         }
     }
 
-    if (fullLine.trim().length === 0) return [createLineBreakToken(fullLine, codeLocation)];
+    if (trimmedLine.length === 0) return [createLineBreakToken(fullLine, codeLocation)];
 
     // Boneyard can recurse but do not start parsing comments inside comments.
     if(rangeStart === 0 && rangeEnd === undefined) {
@@ -311,9 +317,6 @@ function extractToken(fullLine: string, codeLocation: SourceMapElement, lastToke
     // synopsis
     match = lineSegment.match(FountainRegexSynopsis);
     if (match) return [createSynopsisTokenFromMatch(fullLine, codeLocation, match)];
-
-    // page breaks
-    if (FountainRegexPageBreak.test(lineSegment))  return [createToken('page_break', fullLine, lineSegment, codeLocation)];
 
     // line breaks
     if (FountainRegexLineBreak.test(lineSegment))  return [createLineBreakToken(fullLine, codeLocation)];

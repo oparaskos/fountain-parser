@@ -109,67 +109,21 @@
               "index": 92
             },
             "end": {
-              "line": 6,
-              "column": 16,
-              "index": 117
-            }
-          },
-          "text": "\nbeat@kapitan.fi",
-          "key": "Contact"
-        }
-      ]
-    },
-    {
-      "type": "action",
-      "tokens": [
-        {
-          "type": "action",
-          "line": "beat@kapitan.fi",
-          "codeLocation": {
-            "file": "",
-            "start": {
-              "line": 6,
-              "column": 0,
-              "index": 101
-            },
-            "end": {
-              "line": 6,
-              "column": 16,
-              "index": 117
-            }
-          },
-          "text": "beat@kapitan.fi"
-        }
-      ]
-    },
-    {
-      "type": "action",
-      "tokens": [
-        {
-          "type": "action",
-          "line": "www.kapitan.fi/beat/",
-          "codeLocation": {
-            "file": "",
-            "start": {
-              "line": 7,
-              "column": 0,
-              "index": 117
-            },
-            "end": {
               "line": 7,
               "column": 21,
               "index": 138
             }
           },
-          "text": "www.kapitan.fi/beat/"
+          "text": "\nbeat@kapitan.fi\nwww.kapitan.fi/beat/",
+          "key": "Contact"
         }
       ]
     },
     {
-      "type": "line-break",
+      "type": "page-break",
       "tokens": [
         {
-          "type": "line_break",
+          "type": "page_break",
           "line": "",
           "codeLocation": {
             "file": "",
@@ -184,7 +138,7 @@
               "index": 139
             }
           },
-          "text": "\n"
+          "text": ""
         }
       ]
     },

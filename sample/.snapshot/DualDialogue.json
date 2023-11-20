@@ -1,0 +1,141 @@
+{
+  "children": [
+    {
+      "type": "title-page",
+      "tokens": []
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "ADAM",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 0,
+              "column": 0,
+              "index": 0
+            },
+            "end": {
+              "line": 0,
+              "column": 5,
+              "index": 5
+            }
+          },
+          "text": "ADAM"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "Yes.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 1,
+              "column": 0,
+              "index": 5
+            },
+            "end": {
+              "line": 1,
+              "column": 5,
+              "index": 10
+            }
+          },
+          "text": "Yes."
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 2,
+              "column": 0,
+              "index": 10
+            },
+            "end": {
+              "line": 2,
+              "column": 1,
+              "index": 11
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "tokens": [
+        {
+          "type": "character",
+          "line": "EVE ^",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 3,
+              "column": 0,
+              "index": 11
+            },
+            "end": {
+              "line": 3,
+              "column": 6,
+              "index": 17
+            }
+          },
+          "text": "EVE ^"
+        },
+        {
+          "type": "dialogue",
+          "line": "No.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 4,
+              "column": 0,
+              "index": 17
+            },
+            "end": {
+              "line": 4,
+              "column": 4,
+              "index": 21
+            }
+          },
+          "text": "No."
+        }
+      ],
+      "character": "EVE",
+      "extension": null,
+      "parenthetical": null,
+      "dialogueTokens": [
+        {
+          "type": "dialogue",
+          "line": "No.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 4,
+              "column": 0,
+              "index": 17
+            },
+            "end": {
+              "line": 4,
+              "column": 4,
+              "index": 21
+            }
+          },
+          "text": "No."
+        }
+      ]
+    }
+  ]
+}

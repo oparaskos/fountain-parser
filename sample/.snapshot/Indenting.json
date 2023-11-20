@@ -2,9 +2,13 @@
   "children": [
     {
       "type": "title-page",
+      "tokens": []
+    },
+    {
+      "type": "transition",
       "tokens": [
         {
-          "type": "title_page",
+          "type": "transition",
           "line": "CUT TO:",
           "codeLocation": {
             "file": "",
@@ -14,13 +18,12 @@
               "index": 0
             },
             "end": {
-              "line": 1,
-              "column": 1,
-              "index": 9
+              "line": 0,
+              "column": 8,
+              "index": 8
             }
           },
-          "text": "\n",
-          "key": "CUT TO"
+          "text": "CUT TO:"
         }
       ]
     },

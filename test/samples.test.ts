@@ -24,7 +24,7 @@ describe('Fountain Samples', () => {
 
     });
 
-    for (const sample of ['Boneyard', 'Notes', 'CenteredText', 'Indenting', 'Outlining', 'PageBreaks', 'MultilineAction']){ // 'Dialogue', 'DualDialogue', 'ForcedElements']){
+    for (const sample of ['Boneyard', 'Notes', 'CenteredText', 'Indenting', 'Outlining', 'PageBreaks', 'MultilineAction', 'Dialogue', 'DualDialogue', 'ForcedElements', 'PageBreaks']){
         describe(`${sample}.fountain`, () => {
             const fountainPath = resolve(join(samplesDir, `${sample}.fountain`));
             const snapshotPath = resolve(join(samplesDir, `.snapshot/${sample}.json`));
@@ -41,6 +41,5 @@ describe('Fountain Samples', () => {
                 expect(JSON.parse(JSON.stringify(parse(await readFile(fountainPath, 'utf-8'))))).toEqual(snapshot);
             });
         })
-        
     }
 });

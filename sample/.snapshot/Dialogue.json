@@ -1,0 +1,1313 @@
+{
+  "children": [
+    {
+      "type": "title-page",
+      "tokens": []
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "ADAM",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 0,
+              "column": 0,
+              "index": 0
+            },
+            "end": {
+              "line": 0,
+              "column": 5,
+              "index": 5
+            }
+          },
+          "text": "ADAM"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "I like to write.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 1,
+              "column": 0,
+              "index": 5
+            },
+            "end": {
+              "line": 1,
+              "column": 17,
+              "index": 22
+            }
+          },
+          "text": "I like to write."
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 2,
+              "column": 0,
+              "index": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 1,
+              "index": 23
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "tokens": [
+        {
+          "type": "character",
+          "line": "EVE (O.S.)",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 3,
+              "column": 0,
+              "index": 23
+            },
+            "end": {
+              "line": 3,
+              "column": 11,
+              "index": 34
+            }
+          },
+          "text": "EVE (O.S.)"
+        },
+        {
+          "type": "dialogue",
+          "line": "What kind of writing?",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 4,
+              "column": 0,
+              "index": 34
+            },
+            "end": {
+              "line": 4,
+              "column": 22,
+              "index": 56
+            }
+          },
+          "text": "What kind of writing?"
+        }
+      ],
+      "character": "EVE",
+      "extension": "O.S.",
+      "parenthetical": null,
+      "dialogueTokens": [
+        {
+          "type": "dialogue",
+          "line": "What kind of writing?",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 4,
+              "column": 0,
+              "index": 34
+            },
+            "end": {
+              "line": 4,
+              "column": 22,
+              "index": 56
+            }
+          },
+          "text": "What kind of writing?"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "tokens": [
+        {
+          "type": "character",
+          "line": "ADAM",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 6,
+              "column": 0,
+              "index": 57
+            },
+            "end": {
+              "line": 6,
+              "column": 5,
+              "index": 62
+            }
+          },
+          "text": "ADAM"
+        },
+        {
+          "type": "parenthetical",
+          "line": "(nervous)",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 7,
+              "column": 0,
+              "index": 62
+            },
+            "end": {
+              "line": 7,
+              "column": 10,
+              "index": 72
+            }
+          },
+          "text": "nervous"
+        },
+        {
+          "type": "parenthetical",
+          "line": "(nervous)",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 7,
+              "column": 0,
+              "index": 62
+            },
+            "end": {
+              "line": 7,
+              "column": 10,
+              "index": 72
+            }
+          },
+          "text": "nervous"
+        },
+        {
+          "type": "dialogue",
+          "line": "Screenwriting.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 8,
+              "column": 0,
+              "index": 72
+            },
+            "end": {
+              "line": 8,
+              "column": 15,
+              "index": 87
+            }
+          },
+          "text": "Screenwriting."
+        }
+      ],
+      "character": "ADAM",
+      "extension": null,
+      "parenthetical": {
+        "type": "parenthetical",
+        "line": "(nervous)",
+        "codeLocation": {
+          "file": "",
+          "start": {
+            "line": 7,
+            "column": 0,
+            "index": 62
+          },
+          "end": {
+            "line": 7,
+            "column": 10,
+            "index": 72
+          }
+        },
+        "text": "nervous"
+      },
+      "dialogueTokens": [
+        {
+          "type": "parenthetical",
+          "line": "(nervous)",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 7,
+              "column": 0,
+              "index": 62
+            },
+            "end": {
+              "line": 7,
+              "column": 10,
+              "index": 72
+            }
+          },
+          "text": "nervous"
+        },
+        {
+          "type": "dialogue",
+          "line": "Screenwriting.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 8,
+              "column": 0,
+              "index": 72
+            },
+            "end": {
+              "line": 8,
+              "column": 15,
+              "index": 87
+            }
+          },
+          "text": "Screenwriting."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "tokens": [
+        {
+          "type": "character",
+          "line": "EVE",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 10,
+              "column": 0,
+              "index": 88
+            },
+            "end": {
+              "line": 10,
+              "column": 4,
+              "index": 92
+            }
+          },
+          "text": "EVE"
+        },
+        {
+          "type": "dialogue",
+          "line": "ME TOO!",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 11,
+              "column": 0,
+              "index": 92
+            },
+            "end": {
+              "line": 11,
+              "column": 8,
+              "index": 100
+            }
+          },
+          "text": "ME TOO!"
+        }
+      ],
+      "character": "EVE",
+      "extension": null,
+      "parenthetical": null,
+      "dialogueTokens": [
+        {
+          "type": "dialogue",
+          "line": "ME TOO!",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 11,
+              "column": 0,
+              "index": 92
+            },
+            "end": {
+              "line": 11,
+              "column": 8,
+              "index": 100
+            }
+          },
+          "text": "ME TOO!"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "EVE (cont'd)",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 13,
+              "column": 0,
+              "index": 101
+            },
+            "end": {
+              "line": 13,
+              "column": 13,
+              "index": 114
+            }
+          },
+          "text": "EVE (cont'd)"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "I think screenwriting is the best.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 14,
+              "column": 0,
+              "index": 114
+            },
+            "end": {
+              "line": 14,
+              "column": 35,
+              "index": 149
+            }
+          },
+          "text": "I think screenwriting is the best."
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 15,
+              "column": 0,
+              "index": 149
+            },
+            "end": {
+              "line": 15,
+              "column": 1,
+              "index": 150
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "tokens": [
+        {
+          "type": "character",
+          "line": "ADAM",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 16,
+              "column": 0,
+              "index": 150
+            },
+            "end": {
+              "line": 16,
+              "column": 5,
+              "index": 155
+            }
+          },
+          "text": "ADAM"
+        },
+        {
+          "type": "dialogue",
+          "line": "That's great.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 17,
+              "column": 0,
+              "index": 155
+            },
+            "end": {
+              "line": 17,
+              "column": 14,
+              "index": 169
+            }
+          },
+          "text": "That's great."
+        },
+        {
+          "type": "dialogue",
+          "line": "I was really worried you wouldn't",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 18,
+              "column": 0,
+              "index": 169
+            },
+            "end": {
+              "line": 18,
+              "column": 34,
+              "index": 203
+            }
+          },
+          "text": "I was really worried you wouldn't"
+        },
+        {
+          "type": "dialogue",
+          "line": "like screenwriting.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 19,
+              "column": 0,
+              "index": 203
+            },
+            "end": {
+              "line": 19,
+              "column": 20,
+              "index": 223
+            }
+          },
+          "text": "like screenwriting."
+        }
+      ],
+      "character": "ADAM",
+      "extension": null,
+      "parenthetical": null,
+      "dialogueTokens": [
+        {
+          "type": "dialogue",
+          "line": "That's great.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 17,
+              "column": 0,
+              "index": 155
+            },
+            "end": {
+              "line": 17,
+              "column": 14,
+              "index": 169
+            }
+          },
+          "text": "That's great."
+        },
+        {
+          "type": "dialogue",
+          "line": "I was really worried you wouldn't",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 18,
+              "column": 0,
+              "index": 169
+            },
+            "end": {
+              "line": 18,
+              "column": 34,
+              "index": 203
+            }
+          },
+          "text": "I was really worried you wouldn't"
+        },
+        {
+          "type": "dialogue",
+          "line": "like screenwriting.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 19,
+              "column": 0,
+              "index": 203
+            },
+            "end": {
+              "line": 19,
+              "column": 20,
+              "index": 223
+            }
+          },
+          "text": "like screenwriting."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "tokens": [
+        {
+          "type": "character",
+          "line": "EVE",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 21,
+              "column": 0,
+              "index": 224
+            },
+            "end": {
+              "line": 21,
+              "column": 4,
+              "index": 228
+            }
+          },
+          "text": "EVE"
+        },
+        {
+          "type": "dialogue",
+          "line": "Oh, Adam.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 22,
+              "column": 0,
+              "index": 228
+            },
+            "end": {
+              "line": 22,
+              "column": 10,
+              "index": 238
+            }
+          },
+          "text": "Oh, Adam."
+        },
+        {
+          "type": "parenthetical",
+          "line": "(kissing him)",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 23,
+              "column": 0,
+              "index": 238
+            },
+            "end": {
+              "line": 23,
+              "column": 14,
+              "index": 252
+            }
+          },
+          "text": "kissing him"
+        }
+      ],
+      "character": "EVE",
+      "extension": null,
+      "parenthetical": null,
+      "dialogueTokens": [
+        {
+          "type": "dialogue",
+          "line": "Oh, Adam.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 22,
+              "column": 0,
+              "index": 228
+            },
+            "end": {
+              "line": 22,
+              "column": 10,
+              "index": 238
+            }
+          },
+          "text": "Oh, Adam."
+        },
+        {
+          "type": "parenthetical",
+          "line": "(kissing him)",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 23,
+              "column": 0,
+              "index": 238
+            },
+            "end": {
+              "line": 23,
+              "column": 14,
+              "index": 252
+            }
+          },
+          "text": "kissing him"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "tokens": [
+        {
+          "type": "character",
+          "line": "ADAM",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 25,
+              "column": 0,
+              "index": 253
+            },
+            "end": {
+              "line": 25,
+              "column": 5,
+              "index": 258
+            }
+          },
+          "text": "ADAM"
+        },
+        {
+          "type": "dialogue",
+          "line": "I love you.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 26,
+              "column": 0,
+              "index": 258
+            },
+            "end": {
+              "line": 26,
+              "column": 12,
+              "index": 270
+            }
+          },
+          "text": "I love you."
+        }
+      ],
+      "character": "ADAM",
+      "extension": null,
+      "parenthetical": null,
+      "dialogueTokens": [
+        {
+          "type": "dialogue",
+          "line": "I love you.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 26,
+              "column": 0,
+              "index": 258
+            },
+            "end": {
+              "line": 26,
+              "column": 12,
+              "index": 270
+            }
+          },
+          "text": "I love you."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "tokens": [
+        {
+          "type": "character",
+          "line": "EVE ^",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 28,
+              "column": 0,
+              "index": 271
+            },
+            "end": {
+              "line": 28,
+              "column": 6,
+              "index": 277
+            }
+          },
+          "text": "EVE ^"
+        },
+        {
+          "type": "dialogue",
+          "line": "You're so stupid.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 29,
+              "column": 0,
+              "index": 277
+            },
+            "end": {
+              "line": 29,
+              "column": 18,
+              "index": 295
+            }
+          },
+          "text": "You're so stupid."
+        }
+      ],
+      "character": "EVE",
+      "extension": null,
+      "parenthetical": null,
+      "dialogueTokens": [
+        {
+          "type": "dialogue",
+          "line": "You're so stupid.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 29,
+              "column": 0,
+              "index": 277
+            },
+            "end": {
+              "line": 29,
+              "column": 18,
+              "index": 295
+            }
+          },
+          "text": "You're so stupid."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "tokens": [
+        {
+          "type": "character",
+          "line": "R2D2",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 31,
+              "column": 0,
+              "index": 296
+            },
+            "end": {
+              "line": 31,
+              "column": 5,
+              "index": 301
+            }
+          },
+          "text": "R2D2"
+        },
+        {
+          "type": "dialogue",
+          "line": "Bleep Boop.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 32,
+              "column": 0,
+              "index": 301
+            },
+            "end": {
+              "line": 32,
+              "column": 12,
+              "index": 313
+            }
+          },
+          "text": "Bleep Boop."
+        },
+        {
+          "type": "parenthetical",
+          "line": "(*This is a valid character cue.*)",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 33,
+              "column": 0,
+              "index": 313
+            },
+            "end": {
+              "line": 33,
+              "column": 35,
+              "index": 348
+            }
+          },
+          "text": "*This is a valid character cue.*"
+        }
+      ],
+      "character": "R2D2",
+      "extension": null,
+      "parenthetical": null,
+      "dialogueTokens": [
+        {
+          "type": "dialogue",
+          "line": "Bleep Boop.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 32,
+              "column": 0,
+              "index": 301
+            },
+            "end": {
+              "line": 32,
+              "column": 12,
+              "index": 313
+            }
+          },
+          "text": "Bleep Boop."
+        },
+        {
+          "type": "parenthetical",
+          "line": "(*This is a valid character cue.*)",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 33,
+              "column": 0,
+              "index": 313
+            },
+            "end": {
+              "line": 33,
+              "column": 35,
+              "index": 348
+            }
+          },
+          "text": "*This is a valid character cue.*"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "tokens": [
+        {
+          "type": "character",
+          "line": "23 (O.S.)",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 35,
+              "column": 0,
+              "index": 349
+            },
+            "end": {
+              "line": 35,
+              "column": 10,
+              "index": 359
+            }
+          },
+          "text": "23 (O.S.)"
+        },
+        {
+          "type": "dialogue",
+          "line": "Character name must include a letter",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 36,
+              "column": 0,
+              "index": 359
+            },
+            "end": {
+              "line": 36,
+              "column": 37,
+              "index": 396
+            }
+          },
+          "text": "Character name must include a letter"
+        }
+      ],
+      "character": "23",
+      "extension": "O.S.",
+      "parenthetical": null,
+      "dialogueTokens": [
+        {
+          "type": "dialogue",
+          "line": "Character name must include a letter",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 36,
+              "column": 0,
+              "index": 359
+            },
+            "end": {
+              "line": 36,
+              "column": 37,
+              "index": 396
+            }
+          },
+          "text": "Character name must include a letter"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "tokens": [
+        {
+          "type": "character",
+          "line": "ADAM",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 38,
+              "column": 0,
+              "index": 397
+            },
+            "end": {
+              "line": 38,
+              "column": 5,
+              "index": 402
+            }
+          },
+          "text": "ADAM"
+        },
+        {
+          "type": "dialogue",
+          "line": "That was really weird.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 39,
+              "column": 0,
+              "index": 402
+            },
+            "end": {
+              "line": 39,
+              "column": 23,
+              "index": 425
+            }
+          },
+          "text": "That was really weird."
+        },
+        {
+          "type": "dialogue",
+          "line": "I can be weird to. Here's",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 40,
+              "column": 0,
+              "index": 425
+            },
+            "end": {
+              "line": 40,
+              "column": 26,
+              "index": 451
+            }
+          },
+          "text": "I can be weird to. Here's"
+        },
+        {
+          "type": "dialogue",
+          "line": "a space in the dialogue",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 41,
+              "column": 0,
+              "index": 451
+            },
+            "end": {
+              "line": 41,
+              "column": 24,
+              "index": 475
+            }
+          },
+          "text": "a space in the dialogue"
+        },
+        {
+          "type": "dialogue",
+          "line": "block",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 42,
+              "column": 0,
+              "index": 475
+            },
+            "end": {
+              "line": 42,
+              "column": 6,
+              "index": 481
+            }
+          },
+          "text": "block"
+        }
+      ],
+      "character": "ADAM",
+      "extension": null,
+      "parenthetical": null,
+      "dialogueTokens": [
+        {
+          "type": "dialogue",
+          "line": "That was really weird.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 39,
+              "column": 0,
+              "index": 402
+            },
+            "end": {
+              "line": 39,
+              "column": 23,
+              "index": 425
+            }
+          },
+          "text": "That was really weird."
+        },
+        {
+          "type": "dialogue",
+          "line": "I can be weird to. Here's",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 40,
+              "column": 0,
+              "index": 425
+            },
+            "end": {
+              "line": 40,
+              "column": 26,
+              "index": 451
+            }
+          },
+          "text": "I can be weird to. Here's"
+        },
+        {
+          "type": "dialogue",
+          "line": "a space in the dialogue",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 41,
+              "column": 0,
+              "index": 451
+            },
+            "end": {
+              "line": 41,
+              "column": 24,
+              "index": 475
+            }
+          },
+          "text": "a space in the dialogue"
+        },
+        {
+          "type": "dialogue",
+          "line": "block",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 42,
+              "column": 0,
+              "index": 475
+            },
+            "end": {
+              "line": 42,
+              "column": 6,
+              "index": 481
+            }
+          },
+          "text": "block"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "for absolutely no good",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 44,
+              "column": 0,
+              "index": 482
+            },
+            "end": {
+              "line": 44,
+              "column": 23,
+              "index": 505
+            }
+          },
+          "text": "for absolutely no good"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "tokens": [
+        {
+          "type": "action",
+          "line": "reason.",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 45,
+              "column": 0,
+              "index": 505
+            },
+            "end": {
+              "line": 45,
+              "column": 8,
+              "index": 513
+            }
+          },
+          "text": "reason."
+        }
+      ]
+    },
+    {
+      "type": "line-break",
+      "tokens": [
+        {
+          "type": "line_break",
+          "line": "",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 46,
+              "column": 0,
+              "index": 513
+            },
+            "end": {
+              "line": 46,
+              "column": 1,
+              "index": 514
+            }
+          },
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "tokens": [
+        {
+          "type": "character",
+          "line": "EVE",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 47,
+              "column": 0,
+              "index": 514
+            },
+            "end": {
+              "line": 47,
+              "column": 4,
+              "index": 518
+            }
+          },
+          "text": "EVE"
+        },
+        {
+          "type": "parenthetical",
+          "line": "(feeling cocky)",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 48,
+              "column": 0,
+              "index": 518
+            },
+            "end": {
+              "line": 48,
+              "column": 16,
+              "index": 534
+            }
+          },
+          "text": "feeling cocky"
+        },
+        {
+          "type": "parenthetical",
+          "line": "(feeling cocky)",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 48,
+              "column": 0,
+              "index": 518
+            },
+            "end": {
+              "line": 48,
+              "column": 16,
+              "index": 534
+            }
+          },
+          "text": "feeling cocky"
+        },
+        {
+          "type": "dialogue",
+          "line": "Well, then I'll just indent!",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 49,
+              "column": 0,
+              "index": 534
+            },
+            "end": {
+              "line": 49,
+              "column": 29,
+              "index": 563
+            }
+          },
+          "text": "Well, then I'll just indent!"
+        }
+      ],
+      "character": "EVE",
+      "extension": null,
+      "parenthetical": {
+        "type": "parenthetical",
+        "line": "(feeling cocky)",
+        "codeLocation": {
+          "file": "",
+          "start": {
+            "line": 48,
+            "column": 0,
+            "index": 518
+          },
+          "end": {
+            "line": 48,
+            "column": 16,
+            "index": 534
+          }
+        },
+        "text": "feeling cocky"
+      },
+      "dialogueTokens": [
+        {
+          "type": "parenthetical",
+          "line": "(feeling cocky)",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 48,
+              "column": 0,
+              "index": 518
+            },
+            "end": {
+              "line": 48,
+              "column": 16,
+              "index": 534
+            }
+          },
+          "text": "feeling cocky"
+        },
+        {
+          "type": "dialogue",
+          "line": "Well, then I'll just indent!",
+          "codeLocation": {
+            "file": "",
+            "start": {
+              "line": 49,
+              "column": 0,
+              "index": 534
+            },
+            "end": {
+              "line": 49,
+              "column": 29,
+              "index": 563
+            }
+          },
+          "text": "Well, then I'll just indent!"
+        }
+      ]
+    }
+  ]
+}

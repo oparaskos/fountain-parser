@@ -11,7 +11,6 @@ export interface CodeLocation {
 }
 
 export type FountainTokenType = 
-'title_page_property' |
 'scene_heading' |
 'centered' |
 'transition' |
@@ -44,7 +43,8 @@ export type FountainTokenType =
 'character' |
 'boneyard_begin' |
 'boneyard_end' |
-'end_title_page';
+'end_title_page' |
+'lyrics';
 export interface FountainToken {
     type: FountainTokenType;
     text?: string;
