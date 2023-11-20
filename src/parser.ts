@@ -245,7 +245,7 @@ function extractToken(fullLine: string, codeLocation: SourceMapElement, lastToke
     if (lineSegment.startsWith('=')) return [createSynopsisTokenFromLine(fullLine, lineSegment, codeLocation)];
     if (lineSegment.startsWith('~')) return [createToken('lyrics', fullLine, lineSegment, codeLocation)];
 
-    const trimmedLine = fullLine.trim()
+    const trimmedLine = fullLine.trim();
 
     // blank line after title page is the end of the title page. insert a page break.
     if (trimmedLine.length === 0 && lastToken?.type === 'title_page') return [createToken('page_break', fullLine, lineSegment, codeLocation)];
