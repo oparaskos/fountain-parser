@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/oparaskos/fountain-parser/compare/v1.1.0...v1.1.1) (2023-11-20)
+
+
+### Bug Fixes
+
+* fix missing lyrics, title page multiline issues, broken page breaks, added more robust testing ([45bdba9](https://github.com/oparaskos/fountain-parser/commit/45bdba9a57124b6fbadda02bc059552735aab9e1))
+
 # [1.1.0](https://github.com/oparaskos/fountain-parser/compare/v1.0.0...v1.1.0) (2023-11-17)
 
 
