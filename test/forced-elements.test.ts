@@ -44,7 +44,6 @@ describe('Forced Elements', () => {
         ~That I sing
         `));
 
-        console.log(fountainScript)
         const children = fountainScript.children.filter(it => !['line-break', "title-page"].includes(it.type))
         const dialogue = children[0] as DialogueElement;
         expect(dialogue.type).toEqual('dialogue')
@@ -61,7 +60,6 @@ describe('Forced Elements', () => {
         ~That I sing
         `));
 
-        console.log(fountainScript)
         const children = fountainScript.children.filter(it => !['line-break', "title-page"].includes(it.type))
         expect(children).toHaveLength(2);
         expect(children[0].type).toEqual("lyrics")
