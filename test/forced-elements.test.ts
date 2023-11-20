@@ -1,5 +1,4 @@
 import { ActionElement, DialogueElement, parse } from '../src';
-import { LyricsElement } from '../src/types/LyricsElement';
 import { trimIndent } from './utils';
 
 describe('Forced Elements', () => {
