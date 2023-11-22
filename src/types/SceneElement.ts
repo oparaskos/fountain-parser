@@ -83,7 +83,7 @@ export class SceneElement extends GroupingFountainElement<'scene'> {
     }
 
     public parseLocationData(): LocationData | undefined {
-        const regex = /^(?<interior>EST|INT.?\/EXT|INT|EXT|I.|E.).?\s*(?<name>(?:[^-–—−]+[-–—−]??)*?)[-–—−]\s*(?<time_of_day>[^-–—−]+?)$/i;
+        const regex = /^(?<interior>EST|INT.?\/EXT|INT|EXT|I.|E.).?\s*(?<name>(?:[^-–—−]+[-–—−]??)*?)(?:[-–—−]\s*(?<time_of_day>[^-–—−]+?))?$/i;
         const match = regex.exec(this.title) as RegExpExecArray & {groups: {[k: string]: string}};
         if (match != null && match?.groups) {
             const interior = match.groups.interior.indexOf('I') != -1;
@@ -97,7 +97,7 @@ export class SceneElement extends GroupingFountainElement<'scene'> {
             return {
                 name: match.groups.name.trim(),
                 locationType: locationType,
-                timeOfDay: match.groups.time_of_day.trim()
+                timeOfDay: match.groups.time_of_day?.trim()
             };
         }
         return undefined;
