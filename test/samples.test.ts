@@ -30,16 +30,16 @@ describe('Fountain Samples', () => {
             const snapshotPath = resolve(join(samplesDir, `.snapshot/${sample}.json`));
 
             it(`should parse with no exception and return some data`, async () => {
-                const script = parse(await readFile(fountainPath, 'utf-8'))
-                expect(script).not.toBeFalsy()
-                expect(script.children).not.toHaveLength(0)
-            })
+                const script = parse(await readFile(fountainPath, 'utf-8'));
+                expect(script).not.toBeFalsy();
+                expect(script.children).not.toHaveLength(0);
+            });
 
             it(`should match snapshot`, async () => {
                 // await writeJSON(snapshotPath, parse(await readFile(fountainPath, 'utf-8')), {spaces:2});
                 const snapshot = await readJSON(snapshotPath);
                 expect(JSON.parse(JSON.stringify(parse(await readFile(fountainPath, 'utf-8'))))).toEqual(snapshot);
             });
-        })
+        });
     }
 });

@@ -8,7 +8,7 @@ describe('Title Page', () => {
         const fountainScript = parse(trimIndent(`
             Title: My Awesome Script
         `));
-        expect(fountainScript.children[0]).toEqual(fountainScript.titlePage)
+        expect(fountainScript.children[0]).toEqual(fountainScript.titlePage);
     });
     
     
@@ -17,7 +17,7 @@ describe('Title Page', () => {
             Title: My Awesome Script
         `));
         const titlePage = fountainScript.titlePage;
-        expect(titlePage.attributes['Title']).toEqual('My Awesome Script')
+        expect(titlePage.attributes['Title']).toEqual('My Awesome Script');
     });
     
     it('should read a title page with multiple attributes', () => {
@@ -29,7 +29,7 @@ describe('Title Page', () => {
         expect(titlePage.attributes).toEqual({
             Title: 'My Awesome Script',
             Source: 'This is a test'
-        })
+        });
     });
 
     it('should read a title page with multi-line attributes', () => {
@@ -42,6 +42,6 @@ describe('Title Page', () => {
             blah
         `));
         const titlePage = fountainScript.titlePage;
-        expect(titlePage.attributes['Contact']).toEqual('Jim Jimson\n+01 (555) 555 555\n1 Some st\nblah\nblah')
+        expect(titlePage.attributes['Contact']).toEqual('Jim Jimson\n+01 (555) 555 555\n1 Some st\nblah\nblah');
     });
 });
