@@ -1,7 +1,4 @@
-import { readFile } from 'fs-extra';
-import { readJSON, writeJSON } from 'fs-promise';
-import {join, resolve} from 'path';
-import { FountainScript, LocationType, parse } from '../src';
+import { LocationType, parse } from '../src';
 import { trimIndent } from './utils';
 
 describe('Scenes', () => {
