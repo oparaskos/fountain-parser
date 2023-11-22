@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/oparaskos/fountain-parser/compare/v1.1.1...v1.1.2) (2023-11-22)
+
+
+### Bug Fixes
+
+* scene heading not parsing when no time of day ([4e3bcc7](https://github.com/oparaskos/fountain-parser/commit/4e3bcc7d54be3bca7b59a5117b893926d40fad98))
+
 ## [1.1.1](https://github.com/oparaskos/fountain-parser/compare/v1.1.0...v1.1.1) (2023-11-20)
 
 
